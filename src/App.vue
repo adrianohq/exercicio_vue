@@ -30,7 +30,7 @@ const calcularResultado = () => {
       <h1>Calculadora VueJS</h1>
       <p>Para calcular, insira os valores abaixo e selecione a operação desejada</p>
     </header>
-    <form class="bg-light pb-4 pt-4">
+    <form class="bg-dark-subtle pb-4 pt-4">
       <div class="row d-flex justify-content-center align-items-center">
         <div class="col-1">
           <input v-model.number="estado.numero1" type="number" class="form-control">
